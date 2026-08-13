@@ -64,13 +64,15 @@ Excel was used for:
 - Dashboard creation
 - Visualization and reporting
 
-The Excel workbook is available in:
+The Excel workbook is available here:
 
-`excel/spotify_analysis.xlsx`
+[View Excel Analysis Workbook](excel/spotify_analysis.xlsx)
 
-A clean PDF export of the Excel dashboard is available in:
+A clean PDF export of the Excel dashboard is available here:
 
-`excel/spotify_excel_dashboard.pdf`
+[View Excel Dashboard PDF](excel/spotify_excel_dashboard.pdf)
+
+---
 
 ### SQL Analysis
 
@@ -88,13 +90,13 @@ The SQL analysis includes calculations and comparisons involving:
 - Liked vs. non-liked tracks
 - Relationships between selected audio features
 
-The SQL queries are available in:
+The SQL queries are available here:
 
-`sql/spotify_analysis.sql`
+[View SQL Analysis Queries](sql/spotify_analysis.sql)
 
-Supporting query results and output screenshots are available in:
+Supporting query results and output screenshots are available here:
 
-`sql/SQL_Analysis_Results.docx`
+[View SQL Analysis Results](sql/SQL_Analysis_Results.docx)
 
 ---
 
@@ -108,11 +110,11 @@ The Power BI report was created to present the analysis through interactive visu
 
 The complete Power BI report is available here:
 
-`powerbi/spotify_taste_analysis.pbix`
+[View Power BI Report](powerbi/spotify_taste_analysis.pbix)
 
 A PDF version of the Power BI dashboard is available here:
 
-`dashboard/spotify_powerbi_dashboard.pdf`
+[View Power BI Dashboard PDF](dashboard/spotify_powerbi_dashboard.pdf)
 
 Additional Power BI report pages are available in the `images/` folder.
 
