@@ -120,6 +120,38 @@ Additional Power BI report pages are available in the `images/` folder.
 
 ---
 
+## 📌 Key Insights
+
+The analysis identified several patterns in the Spotify dataset:
+
+### Overall Audio Characteristics
+
+- The average track tempo was **121.09 BPM**, with tracks ranging from **60.2 BPM to 180 BPM**.
+- Average **energy and danceability were both 0.64**, indicating a relatively strong presence of energetic and dance-oriented tracks in the dataset.
+- The average **valence was 0.49**, suggesting a fairly balanced distribution of musical positivity.
+- Average **speechiness and liveness were both 0.15**.
+- The average track duration was approximately **3 minutes 33 seconds**, with durations ranging from approximately **1 minute 17 seconds to 10 minutes 55 seconds**.
+
+### Liked vs. Non-Liked Tracks
+
+The analysis showed noticeable differences between liked and non-liked tracks:
+
+- **Liked tracks had higher average danceability**, at **0.76** compared with **0.51** for non-liked tracks.
+- **Liked tracks had a higher average tempo**, at **131.22 BPM** compared with **110.42 BPM**.
+- **Liked tracks showed higher average energy**, at **0.68** compared with **0.59**.
+- **Liked tracks had higher average valence**, at **0.56** compared with **0.42**.
+- **Liked tracks were louder on average**, with loudness of **-6.88** compared with **-12.22** for non-liked tracks.
+- **Speechiness was higher among liked tracks**, at **0.22** compared with **0.08**.
+- Average **liveness was the same for both groups at 0.15**.
+
+### Relationship Analysis
+
+- The project explored the relationship between **energy and danceability** using a scatter plot.
+- The project also explored the relationship between **energy and valence**.
+- These visualizations were used to examine patterns among selected Spotify audio features.
+
+---
+
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
