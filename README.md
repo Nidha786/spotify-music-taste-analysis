@@ -1,2 +1,179 @@
-# spotify-music-taste-analysis
-Analyzed Spotify audio features to identify patterns in music preferences using Excel, SQL, and Power BI, with interactive visualizations and dashboard reporting.
+# 🎵 Spotify Music Taste Analysis
+
+## 📊 Project Overview
+
+This project analyzes Spotify audio features to identify patterns in music preferences and listening behavior.
+
+The analysis was completed using **Excel, SQL, and Power BI**, covering data preparation, exploratory analysis, SQL-based analysis, and interactive dashboard reporting.
+
+The project demonstrates an end-to-end data analytics workflow, from raw data preparation to business-oriented visualization and reporting.
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to analyze Spotify audio features and identify patterns in music preferences using structured data analysis and visualization techniques.
+
+The project focuses on understanding relationships between audio characteristics and music preferences through:
+
+- Data cleaning and preparation
+- Exploratory analysis
+- SQL queries
+- Excel-based analysis and dashboarding
+- Power BI visualization
+- Interactive reporting
+
+---
+
+## 🗂️ Dataset
+
+The project uses a Spotify dataset containing audio features associated with music tracks.
+
+The repository includes both the original and cleaned datasets:
+
+- `spotify_raw.csv` – original dataset
+- `spotify_cleaned.csv` – cleaned and prepared dataset used for analysis
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was prepared for analysis before creating the reports and dashboards.
+
+The workflow included:
+
+- Reviewing the raw dataset
+- Cleaning and preparing the data
+- Creating a structured dataset for analysis
+- Using the cleaned dataset for Excel, SQL, and Power BI analysis
+
+---
+
+## 🔍 Analysis
+
+The project includes analysis performed using both Excel and SQL.
+
+### Excel Analysis
+
+Excel was used for:
+
+- Data preparation
+- Data analysis
+- Lookup functions
+- Pivot tables
+- Dashboard creation
+- Visualization and reporting
+
+The Excel workbook is available in:
+
+`excel/spotify_analysis.xlsx`
+
+### SQL Analysis
+
+SQL was used to analyze the Spotify dataset and investigate audio-feature patterns.
+
+The SQL analysis includes calculations and comparisons involving:
+
+- Tempo
+- Energy
+- Danceability
+- Loudness
+- Speechiness
+- Liveness
+- Valence
+- Liked vs. non-liked tracks
+- Relationships between selected audio features
+
+The SQL queries are available in:
+
+`sql/spotify_analysis.sql`
+
+Supporting query results and output screenshots are available in:
+
+`sql/SQL_Analysis_Results.docx`
+
+---
+
+## 📈 Power BI Dashboard
+
+The Power BI report was created to present the analysis through interactive visualizations and dashboard reporting.
+
+### Dashboard Preview
+
+![Spotify Power BI Dashboard](images/spotify_powerbi_page_01.png)
+
+The complete Power BI report is available here:
+
+`powerbi/spotify_taste_analysis.pbix`
+
+A PDF version of the Power BI dashboard is available here:
+
+`dashboard/spotify_powerbi_dashboard.pdf`
+
+Additional Power BI report pages are available in the `images/` folder.
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Excel | Data preparation, analysis, Pivot Tables, dashboard |
+| SQL | Data analysis and querying |
+| Power BI | Interactive visualization and dashboard reporting |
+
+---
+
+## 📁 Project Structure
+
+```text
+spotify-music-taste-analysis/
+│
+├── data/
+│   ├── spotify_raw.csv
+│   └── spotify_cleaned.csv
+│
+├── dashboard/
+│   └── spotify_powerbi_dashboard.pdf
+│
+├── excel/
+│   └── spotify_analysis.xlsx
+│
+├── images/
+│   ├── spotify_powerbi_page_01.png
+│   ├── spotify_powerbi_page_02.png
+│   ├── spotify_powerbi_page_03.png
+│   └── spotify_powerbi_page_04.png
+│
+├── powerbi/
+│   └── spotify_taste_analysis.pbix
+│
+├── sql/
+│   ├── spotify_analysis.sql
+│   └── SQL_Analysis_Results.docx
+│
+└── README.md
+```
+
+💡 Key Skills Demonstrated
+Data Cleaning & Preparation
+Exploratory Data Analysis
+Excel Data Analysis
+SQL Querying
+Data Visualization
+Dashboard Development & Reporting
+Power BI Reporting
+Analytical Thinking
+Data Storytelling
+
+👩‍💻 Author
+
+Naseema Begam MA
+
+Aspiring Data Analyst
+
+Skills: Excel | SQL | Power BI | Python | Pandas | Statistics | Tableau
+
+📌 Project Status
+
+Completed as a portfolio data analytics project.
