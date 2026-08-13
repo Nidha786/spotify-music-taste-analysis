@@ -68,6 +68,10 @@ The Excel workbook is available in:
 
 `excel/spotify_analysis.xlsx`
 
+A clean PDF export of the Excel dashboard is available in:
+
+`excel/spotify_excel_dashboard.pdf`
+
 ### SQL Analysis
 
 SQL was used to analyze the Spotify dataset and investigate audio-feature patterns.
@@ -137,7 +141,8 @@ spotify-music-taste-analysis/
 │   └── spotify_powerbi_dashboard.pdf
 │
 ├── excel/
-│   └── spotify_analysis.xlsx
+│   ├── spotify_analysis.xlsx
+│   └── spotify_excel_dashboard.pdf
 │
 ├── images/
 │   ├── spotify_powerbi_page_01.png
