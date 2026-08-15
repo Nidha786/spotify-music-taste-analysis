@@ -4,10 +4,9 @@
 
 This project analyzes Spotify audio features to identify patterns in music preferences and listening behavior.
 
-The analysis was completed using **Excel, SQL, and Power BI**, covering data preparation, exploratory analysis, SQL-based analysis, and interactive dashboard reporting.
+The analysis was completed using **Python, Pandas, Excel, SQL, and Power BI**, covering data cleaning and preparation, exploratory analysis, SQL-based analysis, and interactive dashboard reporting.
 
-The project demonstrates an end-to-end data analytics workflow, from raw data preparation to business-oriented visualization and reporting.
-
+The project demonstrates an end-to-end data analytics workflow, from raw data cleaning and preparation to business-oriented analysis, visualization, and reporting.
 ---
 
 ## 🎯 Project Objective
@@ -16,7 +15,7 @@ The objective of this project is to analyze Spotify audio features and identify 
 
 The project focuses on understanding relationships between audio characteristics and music preferences through:
 
-- Data cleaning and preparation
+- Data cleaning and preparation using Python and Pandas
 - Exploratory analysis
 - SQL queries
 - Excel-based analysis and dashboarding
@@ -38,14 +37,18 @@ The repository includes both the original and cleaned datasets:
 
 ## 🧹 Data Preparation
 
-The dataset was prepared for analysis before creating the reports and dashboards.
+The raw Spotify dataset was cleaned and prepared using **Python and Pandas** before being used for further analysis.
 
 The workflow included:
 
-- Reviewing the raw dataset
-- Cleaning and preparing the data
-- Creating a structured dataset for analysis
+- Reviewing the raw Spotify dataset
+- Using Python and Pandas to clean and prepare the data
+- Creating the cleaned dataset used for analysis
 - Using the cleaned dataset for Excel, SQL, and Power BI analysis
+
+This demonstrates the workflow:
+
+**Raw Data → Python/Pandas Cleaning → Cleaned Data → Analysis & Visualization**
 
 ---
 
@@ -127,7 +130,7 @@ The analysis identified several patterns in the Spotify dataset:
 ### Overall Audio Characteristics
 
 - The average track tempo was **121.09 BPM**, with tracks ranging from **60.2 BPM to 180 BPM**.
-- Average **energy and danceability were both 0.64**, indicating a relatively strong presence of energetic and dance-oriented tracks in the dataset.
+- Average **energy and danceability were both 0.64**, indicating relatively moderate-to-high average levels of energy and danceability in the dataset.
 - The average **valence was 0.49**, suggesting a fairly balanced distribution of musical positivity.
 - Average **speechiness and liveness were both 0.15**.
 - The average track duration was approximately **3 minutes 33 seconds**, with durations ranging from approximately **1 minute 17 seconds to 10 minutes 55 seconds**.
@@ -156,7 +159,9 @@ The analysis showed noticeable differences between liked and non-liked tracks:
 
 | Tool | Purpose |
 |---|---|
-| Excel | Data preparation, analysis, Pivot Tables, dashboard |
+| Python | Data cleaning and preparation |
+| Pandas | Data manipulation and cleaning |
+| Excel | Data analysis, Pivot Tables, dashboarding |
 | SQL | Data analysis and querying |
 | Power BI | Interactive visualization and dashboard reporting |
 
@@ -195,15 +200,16 @@ spotify-music-taste-analysis/
 ```
 
 💡 Key Skills Demonstrated
-Data Cleaning & Preparation
-Exploratory Data Analysis
-Excel Data Analysis
-SQL Querying
-Data Visualization
-Dashboard Development & Reporting
-Power BI Reporting
-Analytical Thinking
-Data Storytelling
+- Python & Pandas Data Cleaning
+- Data Preparation
+- Exploratory Data Analysis
+- Excel Data Analysis
+- SQL Querying
+- Data Visualization
+- Dashboard Development & Reporting
+- Power BI Reporting
+- Analytical Thinking
+- Data Storytelling
 
 👩‍💻 Author
 
